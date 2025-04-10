@@ -26,14 +26,6 @@ header {
     color: cyan;
 }
 
-#examples {
-    background: rgb(0, 0, 0);
-    color: cyan;
-    padding: 20px;
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-}
 
 #products {
     margin: 0px 0px 20px 0px;
@@ -93,11 +85,13 @@ h2 {
     box-sizing: border-box;
   }
   
-.div {
+.elements {
+    background: rgb(37, 36, 36);
+    color: cyan;
+    padding: 50px;
+    border-radius: 50%;
+    text-align: center;
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: baseline;
 }
 
 .container {
