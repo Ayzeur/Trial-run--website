@@ -9,16 +9,8 @@
             font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
             margin: 0;
             padding: 0;
-            }  
-         h1  {
-            color: cyan;
-         }
-         h2  {
-            color: cyan;
-         }
-         h3  {
-            color: cyan;
-         }
+            }
+
          button {
             background: rgb(0, 0, 0);
             border: none;
@@ -31,37 +23,55 @@
             margin: 4px 2px;
             border-radius: 50%;
          }
+
         header {
             padding: 40px 40px 10px 50px;
             text-align: center;
-            background-color: rgb(0, 0, 0);
-        }
-        section {
-            text-align: center;
-            background-color: black;
-            font-size: larger;
-            padding: 40px 40px 10px 50px;
+            background: rgb(0, 0, 0);
+            color: cyan;
         }
 
+        section {
+            background: rgb(37, 36, 36);
+            color: cyan;
+            padding: 20px;
+            display: flex;
+            flex-direction: row;
+        }
+
+        div {
+            background-color: rgb(0, 0, 0);
+            width: 100px;
+            margin: auto;
+        }
+        
+        h2 {
+            color: cyan;
+        }
+
+
      </style>
-    </head>
+     <head>
     <body>
         <header>
             <h1><em>Central Clothing</em></h1>
         </header>
+
         <h2>Products</h2>
-            <ul>
-                <h3><em><li>Shirts</li></em></h3>
-                <h3><em><li>Shorts</li></em></h3>
-                <h3><em><li>Tracksuits</li></em></h3>
-            </ul>
+
+        <section>
+         <div>Shirts</div>
+         <div>Shorts</div>
+         <div>Tracksuits</div>
+        </section>
+
+        <h2><section>lower-section</section></h2>
+        <h2><footer>footer</footer></h2>
+
         
-     <section><h1>lower-section</h1></section>
-     <h1><footer>footer</footer><h1>
 
+     <button>About us</button>
 
-    </body>
+</body>
 
-
-    <button>About us</button>
 </html>
